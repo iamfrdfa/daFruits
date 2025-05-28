@@ -27,8 +27,8 @@
                         "inlineStyleLanguage": "scss",
                         "assets": [
                             {
-                                "glob": "public/favicon.ico",
-                                "input": "src/assets"
+                                "glob": "**/*",
+                                "input": "public"
                             }
                         ],
                         "styles": [
@@ -86,8 +86,8 @@
                         "inlineStyleLanguage": "scss",
                         "assets": [
                             {
-                                "glob": "public/favicon.ico",
-                                "input": "src/assets"
+                                "glob": "**/*",
+                                "input": "public"
                             }
                         ],
                         "styles": [

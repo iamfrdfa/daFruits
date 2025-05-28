@@ -2,7 +2,7 @@
     @for (item of fruitlist; track item.name) {
         <section class="singleFruitBox">
             <div>
-                @if (item.stars < 3) {
+                @if (item.stars < 10) {
                     <img src="img/fruits/{{item.img}}" alt="" srcset="">
                 }
             </div>
@@ -35,8 +35,8 @@
                     </div>
                 </div>
                 <div>
-                    <input type="text">
-                    <button><img src="../../../public/img/arrow-35-32.png" alt="" srcset=""></button>
+                    <input type="text" placeholder="Add a review" id="comment-input">
+                    <button><img src="/img/arrow-35-32.png" alt="" srcset=""></button>
                 </div>
             </div>
         </section>
